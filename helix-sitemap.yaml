@@ -1,0 +1,17 @@
+version: 1
+
+sitemaps:
+  website:
+    origin: https://www.adobe.com
+    lastmod: YYYY-MM-DD
+    languages:
+      default:
+        source: /acrobat/online/query-index.json
+        destination: /acrobat/online/sitemap.xml
+        hreflang: en
+        alternate: /{path}
+      de:
+        source: https://www.adobe.com/de/sitemap.dc.xml
+        destination: /de/acrobat/online/sitemap.xml
+        hreflang: de
+        alternate: /de/{path}.html
